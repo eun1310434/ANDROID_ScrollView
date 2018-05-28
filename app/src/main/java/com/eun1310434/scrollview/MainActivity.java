@@ -1,10 +1,26 @@
+/*=====================================================================
+□ INFORMATION
+  ○ Data : 28.05.2018
+  ○ Mail : eun1310434@naver.com
+  ○ Blog : https://blog.naver.com/eun1310434
+  ○ Reference : Do it android app Programming
 
-/**
- * 19.02.2018
- * eun1310434@naver.com
- * https://blog.naver.com/eun1310434
- */
+□ FUNCTION
+  ○
 
+□ STUDY
+  ○ ScrollView
+     - A view group that allows the view hierarchy placed within it to be scrolled.
+       Scroll view may have only one direct child placed within it.
+       To add multiple views within the scroll view, make the direct child you add
+       a view group,
+       for example LinearLayout, and place additional views within that LinearLayout.
+       Scroll view supports vertical scrolling only. For horizontal scrolling,
+       use HorizontalScrollView instead.
+       Never add a RecyclerView or ListView to a scroll view.
+       Doing so results in poor user interface performance and a poor user experience.
+
+=====================================================================*/
 package com.eun1310434.scrollview;
 
 import android.content.res.Resources;
